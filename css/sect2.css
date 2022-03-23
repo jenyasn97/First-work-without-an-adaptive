@@ -1,0 +1,88 @@
+.sect2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.sect2__block {
+  width: 1254px;
+}
+
+.sect2__content {
+  max-width: 550px;
+}
+
+.sect2__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 110px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sect2__title-cont {
+  opacity: 0.8;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+  margin-bottom: 50px;
+}
+
+.sect2__subtitle-cont {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 58px;
+}
+
+.sect2__forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sect2__card {
+  max-width: 272px;
+  margin-bottom: 50px;
+}
+
+.sect2__imeg {
+  margin-bottom: 30px;
+}
+
+.sect2__title {
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans - Semibold";
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0.27px;
+  margin-bottom: 17px;
+}
+
+.sect2__subtitle {
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}

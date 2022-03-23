@@ -1,0 +1,35 @@
+@import "nullstyle.scss";
+@import "footer.scss";
+@import "get.scss";
+@import "headblok.scss";
+@import "products.scss";
+@import "sect2.scss";
+@import "subscribe.scss";
+@import "team.scss";
+
+body {
+  overflow-x: hidden;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  width: 1254px;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34.06px;
+  letter-spacing: 0.32px;
+  border-radius: 5px;
+  background-color: #ff2d2d;
+  padding: 5px 25px;
+  display: inline-block;
+}
+
+.imege {
+  padding: 144px 240px;
+}
